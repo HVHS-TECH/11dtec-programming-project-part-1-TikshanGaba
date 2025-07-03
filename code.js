@@ -18,7 +18,8 @@ Main Code
 userName ();
 userAge ();
 userMoney ();
-let MINAGE
+let MINAGE = 1;
+let MAXAGE = 100;
 
 /**************************** 
 Functions

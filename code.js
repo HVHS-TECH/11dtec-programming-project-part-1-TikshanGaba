@@ -46,6 +46,7 @@ function start()
     userMoney = prompt("Oh you're " + userAge + ", how much pocket money do you get ?")
     if (userMoney == null || userMoney == "" || userMoney == " " || isNaN(userMoney) ){
         userMoney = prompt("Invalid! You must enter how much money do you have" + userName)
+         // check if user has clicked cancel
         if (userMoney == null){
    // end the program
    return;

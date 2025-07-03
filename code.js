@@ -1,9 +1,6 @@
 let userName;
 let userAge;
 let userMoney;
-userName ();
-userAge ();
-userMoney ();
 let MINAGE = 1;
 let MAXAGE = 100;
 function start()

@@ -32,5 +32,5 @@ function start()
    return;
         }
         }
+           alert("So, you're "+ userName + ", and you're "+ userAge + " years old and you get " + userMoney + " dollars as pocket money. Nice")
       }
-   alert("So, you're "+ userName + ", and you're "+ userAge + " years old and you get " + userMoney + " dollars as pocket money. Nice")

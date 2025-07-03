@@ -1,29 +1,11 @@
-/****************************
- Name of task: Testing
- Name: Tikshan
- Date: Term two week three 2025
- Purpose:  Learning javascript
-*****************************/
-
-//Variables
 let userName;
 let userAge;
 let userMoney;
-/****************************
-Main Code
-****************************/
-// start()
-// Runs the program
-// Called by the start button
 userName ();
 userAge ();
 userMoney ();
 let MINAGE = 1;
 let MAXAGE = 100;
-
-/**************************** 
-Functions
-****************************/
 function start()
  {
     userName = prompt("Oh hi, Maybe I forgot you.. What was your name again ?")
@@ -35,7 +17,7 @@ function start()
    return;
  }
  }
-    userAge = prompt("Nice name " + userName + ", how old are you ?")
+   userAge = prompt("Nice name " + userName + ", how old are you ?")
     if (userAge == null || userAge == "" || userAge == " " || isNaN(userAge) || userAge < MINAGE || userAge > MAXAGE){
     userAge = prompt("Invalid! You must enter you age between " + MINAGE + " and " + MAXAGE)
      // check if user has clicked cancel
@@ -44,7 +26,7 @@ function start()
    return;
  }
 }
-    userMoney = prompt("Oh you're " + userAge + ", how much pocket money do you get ?")
+ userMoney = prompt("Oh you're " + userAge + ", how much pocket money do you get ?")
     if (userMoney == null || userMoney == "" || userMoney == " " || isNaN(userMoney) ){
         userMoney = prompt("Invalid! You must enter how much money do you have" + userName)
          // check if user has clicked cancel
@@ -55,4 +37,3 @@ function start()
         }
       }
    alert("So, you're "+ userName + ", and you're "+ userAge + " years old and you get " + userMoney + " dollars as pocket money. Nice")
-    

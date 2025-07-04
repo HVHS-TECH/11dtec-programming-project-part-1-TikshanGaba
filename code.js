@@ -26,7 +26,7 @@ function start()
    return;
  }
 }
- alert("Okay " + username + " let's start your process")
+ alert("Okay " + userName + " let's start your process")
  alert("Choose the car you want according to your seats. We have 3 options of seats, 2 seats, 4 seats, 5 seats")
   
  

@@ -3,8 +3,8 @@ let userAge;
 let userMoney;
 let MINAGE = 18;
 let MAXAGE = 100;
-let cars = ["2 seats","4 seats","5 seats"];
-let choice = prompt("Pick a number from 0 to 4 to identify yourself");
+let seats = ["2 seats","4 seats","5 seats"];
+let choice = prompt("Pick how much seats you want in your car");
 function start()
  {
     userName = prompt("Welcome to Rob's rentals. Can I know your name ?")
@@ -26,7 +26,8 @@ function start()
  }
 }
  alert("Okay " + username + " let's start your process")
- alert("Choose the car you want according to your seats. We have 3 avalaible cars. Those are :- Toyota Camry, Honda Civic, BMW 3 series.")
+ alert("Choose the car you want according to your seats. We have 3 options of seats, 2 seats, 4 seats, 5 seats")
+ 
  
 
       }

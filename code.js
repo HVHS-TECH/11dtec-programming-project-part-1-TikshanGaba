@@ -1,11 +1,11 @@
 let userName;
 let userAge;
 let userMoney;
-let MINAGE = 1;
+let MINAGE = 18;
 let MAXAGE = 100;
 function start()
  {
-    userName = prompt("Oh hi, Maybe I forgot you.. What was your name again ?")
+    userName = prompt("Welcome to Rob's rentals. Can I know your name ?")
     if ( !isNaN(userName) || userName == null || userName == "" || userName == " " ){
     userName = prompt("Invalid! You must enter a name")
     // check if user has clicked cancel
@@ -14,7 +14,7 @@ function start()
    return;
  }
  }
-   userAge = prompt("Nice name " + userName + ", how old are you ?")
+   userAge = prompt("Nice name " + userName + ", Can I know your age to proceed ?")
     if (userAge == null || userAge == "" || userAge == " " || isNaN(userAge) || userAge < MINAGE || userAge > MAXAGE){
     userAge = prompt("Invalid! You must enter you age between " + MINAGE + " and " + MAXAGE)
      // check if user has clicked cancel
@@ -23,14 +23,6 @@ function start()
    return;
  }
 }
- userMoney = prompt("Oh you're " + userAge + ", how much pocket money do you get ?")
-    if (userMoney == null || userMoney == "" || userMoney == " " || isNaN(userMoney) ){
-        userMoney = prompt("Invalid! You must enter how much money do you have" + userName)
-         // check if user has clicked cancel
-        if (userMoney == null){
-   // end the program
-   return;
-        }
-        }
-           alert("So, you're "+ userName + ", and you're "+ userAge + " years old and you get " + userMoney + " dollars as pocket money. Nice")
+ alert("Okay " + username + " let's start your process")
+ 
       }

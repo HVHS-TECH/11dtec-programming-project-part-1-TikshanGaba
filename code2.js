@@ -13,3 +13,13 @@ function start()
 {
     <input type="number" id="input_age" min={18} max={100} required></input>
 }
+{
+    <label for= "cars">Choose a car:</label>
+}
+{
+    <select id="cars" name="Cars">
+<option value="Toyota">Toyota</option>
+<option value="BMW">BMW</option>
+<option value="Civic">Civic</option>
+    </select>
+}
